@@ -5,3 +5,51 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+/* body styling */
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: turquoise;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  border: darkslategray solid 4px;
+}
+#starwars-characters {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 120px;
+}
+
+#starwars-characters li {
+  padding: 20px;
+  color: rgb(35, 101, 101);
+  font-size: 20px;
+  font-family: Sans-serif;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px 12px;
+  color: rgb(8, 85, 85);
+  font-size: 50px;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: teal;
+}
